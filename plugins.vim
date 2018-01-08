@@ -86,6 +86,7 @@ Plugin 'jwalton512/vim-blade'
 " Define some single Blade directives. This variable is used for highlighting only.
 let g:blade_custom_directives = ['hasRole', 'userInSameDepartment']
 
+" add end tags to custom directives
 let s:end_tags = []
 for i in g:blade_custom_directives
 	if strpart(i,0,3) != 'end'
