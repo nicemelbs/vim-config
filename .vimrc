@@ -66,9 +66,10 @@ nnoremap <Left> :echoe "Use h"<cr>
 nnoremap <Right> :echoe "Use l"<cr>
 nnoremap <Up> :echoe "Use k"<cr>
 nnoremap <Down> :echoe "Use j"<cr>
+noremap ZZ :echoe "Not closing the window :)"<cr>
 
 "-----Laravel Specific------"
-nmap <leader>lr :e routes/web.php<cr>
+nmap <leader></xa>lr :e routes/web.php<cr>
 nmap <Leader><Leader>c :e app/Http/Controllers/<cr>
 nmap <Leader><Leader>m :CtrlP<cr>app/
 nmap <Leader><Leader>v :e resources/views/<cr>
@@ -128,3 +129,4 @@ endif
 " <leader>cc to comment line. some way to comment other text objects
 "
 " :read [file] yanks file content to current cursor
+" "*p to paste from system clipboard
