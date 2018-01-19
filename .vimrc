@@ -51,6 +51,9 @@ nmap <leader>es :tabedit $HOME/.vim/snippets/
 
 "Select all
 noremap <C-A> ggVG
+
+"paste
+noremap <C-V> "*p
 noremap <C-S> :w<cr>
 
 "Buffer navigation
@@ -69,7 +72,7 @@ nnoremap <Down> :echoe "Use j"<cr>
 noremap ZZ :echoe "Not closing the window :)"<cr>
 
 "-----Laravel Specific------"
-nmap <leader></xa>lr :e routes/web.php<cr>
+nmap <leader>lr :e routes/web.php<cr>
 nmap <Leader><Leader>c :e app/Http/Controllers/<cr>
 nmap <Leader><Leader>m :CtrlP<cr>app/
 nmap <Leader><Leader>v :e resources/views/<cr>

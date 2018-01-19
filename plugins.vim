@@ -124,12 +124,15 @@ autocmd FileType php noremap <F9> :call PhpExpandClass()<CR>
 Plugin 'StanAngeloff/php.vim'
 Plugin 'stephpy/vim-php-cs-fixer'
 
+Plugin 'ap/vim-css-color'
+
 "------Quality of life---------"
 Plugin 'garbas/vim-snipmate'
 Plugin 'ervandew/supertab'
 Plugin 'tpope/vim-surround'
 Plugin 'aaronbieber/vim-quicktask'
 Plugin 'tpope/vim-commentary'
+Plugin 'craigemery/vim-autotag'
 
 call vundle#end()
 filetype plugin indent on
