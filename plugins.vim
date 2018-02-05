@@ -132,7 +132,9 @@ Plugin 'ervandew/supertab'
 Plugin 'tpope/vim-surround'
 Plugin 'aaronbieber/vim-quicktask'
 Plugin 'tpope/vim-commentary'
+
 Plugin 'craigemery/vim-autotag'
+let g:autotagTagsFile="tags"
 
 call vundle#end()
 filetype plugin indent on

@@ -11,10 +11,6 @@ let mapleader=','
 "------Appearance-------"
 syntax enable
 colorscheme onedark
-"Display a column to know when to wrap to next line
-set textwidth=80
-set colorcolumn=+1
-
 
 "display relative line numbers instead of absolute
 set relativenumber
