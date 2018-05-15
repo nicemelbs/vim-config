@@ -9,7 +9,7 @@ so $HOME/.vim/plugins.vim
 let mapleader=','
 
 "------Appearance-------"
-syntax enable
+syntax on
 colorscheme onedark
 
 "display relative line numbers instead of absolute
@@ -108,6 +108,9 @@ if has("autocmd")		"Hide guitabs
   au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 endif
 
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
+
 "---------NOTES AND TIPS---------
 " ctrl+] go to method definition
 " ctrl+6 jump to previously edited file
@@ -125,7 +128,7 @@ endif
 "
 " learn to use macros. it's super useful. episode 21
 "
-" <leader>cc to comment line. some way to comment other text objects
+" gcc to comment line. some way to comment other text objects
 "
 " :read [file] yanks file content to current cursor
 " "*p to paste from system clipboard
