@@ -78,7 +78,7 @@ Plugin 'ryanoasis/vim-devicons'
 
 "Font downloaded from 
 "https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/FiraCode
-set guifont=FuraCode_NF:h10
+set guifont=FiraMono
 Plugin 'tpope/vim-fugitive'
 
 "Laravel specific
